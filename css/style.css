@@ -1,0 +1,125 @@
+*,
+*:before,
+*:after {
+  box-sizing: border-box;
+}
+/* http://meyerweb.com/eric/tools/css/reset/ 
+   v2.0 | 20110126
+   License: none (public domain)
+*/
+
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed, 
+figure, figcaption, footer, header, hgroup, 
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+  margin: 0;
+  padding: 0;
+  border: 0;
+  font-size: 100%;
+  font: inherit;
+  vertical-align: baseline;
+}
+/* HTML5 display-role reset for older browsers */
+article, aside, details, figcaption, figure, 
+footer, header, hgroup, menu, nav, section {
+  display: block;
+}
+body {
+  line-height: 1;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+a {
+  text-decoration: none;
+}
+ol, ul {
+  list-style: none;
+}
+blockquote, q {
+  quotes: none;
+}
+blockquote:before, blockquote:after,
+q:before, q:after {
+  content: '';
+  content: none;
+}
+table {
+  border-collapse: collapse;
+  border-spacing: 0;
+}
+
+/*TYPOGRAPGY*/
+
+/*H1, hidden*/
+.first-title {
+  display: none;
+}
+
+/*H2, H3 family*/
+.main-title, .secondary-title {
+  font-family: 'Manrope', sans-serif;
+  font-weight: 800;
+  color: #333D3F;
+  line-height: 120%;
+  text-transform: uppercase;
+}
+
+/*H4, H5 Family*/
+.branch-title, .text-caption  {
+  font-family: /*Wait-for-style*/;
+  font-weight: 700;
+  color: #333D3F;
+  line-height: 140%;
+}
+
+/*H2*/
+.main-title {
+  font-size: 44px;
+}
+/*Subtitle*/
+.subtitle {
+  font-family: 'Manrope', sans-serif;
+  font-weight: 500;
+  color: #333D3F;
+  font-size: 16px;
+  line-height: 140%;
+  letter-spacing: 10px;
+  text-transform: uppercase;
+}
+/*H3*/
+.secondary-title {
+  font-size: 32px;
+}
+/*H4*/
+.branch-title {
+  font-size: 24px;
+}
+/*H5, header-links and other*/
+.text-caption {
+  font-size: 16px;
+}
+
+/*BODY TEXT*/
+.body-text {
+  font-family: /*Wait-for-style*/;
+  font-style: normal;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 140%;
+  color: #333D3F;
+}
+
+/*Green Color*/
+.green-font {
+  color: #8ABD63;
+}
