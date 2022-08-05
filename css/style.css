@@ -76,7 +76,7 @@ table {
 
 /*H4, H5 Family*/
 .branch-title, .text-caption  {
-  font-family: /*Wait-for-style*/;
+  font-family: 'Roboto Slab', serif;
   font-weight: 700;
   color: #333D3F;
   line-height: 140%;
@@ -111,7 +111,7 @@ table {
 
 /*BODY TEXT*/
 .body-text {
-  font-family: /*Wait-for-style*/;
+  font-family: 'Roboto Slab', serif;
   font-style: normal;
   font-weight: 400;
   font-size: 16px;
