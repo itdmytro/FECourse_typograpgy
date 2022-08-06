@@ -60,6 +60,16 @@ table {
 
 /*TYPOGRAPGY*/
 
+/*BODY TEXT*/
+body {
+  font-family: 'Roboto Slab', serif;
+  font-style: normal;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 140%;
+  color: #333D3F;
+}
+
 /*H1, hidden*/
 .first-title {
   display: none;
@@ -107,16 +117,6 @@ table {
 /*H5, header-links and other*/
 .text-caption {
   font-size: 16px;
-}
-
-/*BODY TEXT*/
-.body-text {
-  font-family: 'Roboto Slab', serif;
-  font-style: normal;
-  font-weight: 400;
-  font-size: 16px;
-  line-height: 140%;
-  color: #333D3F;
 }
 
 /*Green Color*/
