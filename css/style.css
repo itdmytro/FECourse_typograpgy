@@ -121,3 +121,17 @@ table {
 .green-font {
   color: #8ABD63;
 }
+
+/*Typography RESPONSIVE*/
+
+@media only screen
+
+and (max-width: 799px) {
+  .main-title {
+    font-size: 36px;
+  }
+  .secondary-title {
+    font-size: 28px;
+  }
+}
+
